@@ -1,0 +1,16 @@
+[20170320 14:48:01 885552][NOTICE][/Users/roc/gopl/rpc/test/test_client.go:154]server add:127.0.0.1:1235, childNum:1, connNum:1, runTime:0s
+[20170320 14:48:01 885708][INFO][/Users/roc/graverobberserver/src/babeltime.com/rpc/client.go:103]new client for service:test, config:{100 1 5s 10s}
+[20170320 14:48:01 885732][INFO][/Users/roc/graverobberserver/src/babeltime.com/rpc/client.go:130]add server addr. name:test, addr:127.0.0.1:1235, weight:1, maxConnNum:1
+[20170320 14:48:01 885736][INFO][/Users/roc/graverobberserver/src/babeltime.com/rpc/client.go:142]update totalWeight:1
+[20170320 14:48:01 885765][INFO][/Users/roc/graverobberserver/src/babeltime.com/rpc/client.go:316]server:test_127.0.0.1:1235 no connection or has waiting call. connNum:0, try create new connection
+[20170320 14:48:01 885776][INFO][/Users/roc/graverobberserver/src/babeltime.com/rpc/client.go:247]server:127.0.0.1:1235 add connection. curNum:1
+[20170320 14:48:01 885951][FATAL][/Users/roc/graverobberserver/src/babeltime.com/rpc/client.go:328]server:test_127.0.0.1:1235 no connection, and connect failed
+[20170320 14:48:01 885970][WARNING][/Users/roc/graverobberserver/src/babeltime.com/rpc/client.go:382]server:test_127.0.0.1:1235 connect failed. validServerNum:0
+[20170320 14:48:01 885973][FATAL][/Users/roc/graverobberserver/src/babeltime.com/rpc/client.go:151]no server for req:test.Echo
+[20170320 14:48:01 885977][WARNING][/Users/roc/graverobberserver/src/babeltime.com/rpc/client.go:240]call method:test.Echo 0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~0123456789:;<=>?@ABC failed after 0 retry
+[20170320 14:48:01 885982][FATAL][rpc_client_test_index:rpc_client_test_0][/Users/roc/gopl/rpc/test/test_client.go:62]get err:dial tcp4 127.0.0.1:1235: getsockopt: connection refused
+[20170320 14:48:01 886000][NOTICE][rpc_client_test_index:rpc_client_test_0][/Users/roc/gopl/rpc/test/test_client.go:65]done one cost:0.000242
+[20170320 14:48:01 886019][NOTICE][rpc_client_test_index:rpc_client_test_0][/Users/roc/gopl/rpc/test/test_client.go:74]runTime:0s done
+[20170320 14:48:01 886046][FATAL][/Users/roc/gopl/rpc/test/test_client.go:184]sumSuc:0 < sumRun:1
+[20170320 14:48:01 886062][NOTICE][/Users/roc/gopl/rpc/test/test_client.go:191]sumRun:1 sumSuc:0 delt:0.000312 avg:0.000000
+

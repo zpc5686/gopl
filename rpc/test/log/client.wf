@@ -1,0 +1,6 @@
+[20170320 14:48:01 885951][FATAL][/Users/roc/graverobberserver/src/babeltime.com/rpc/client.go:328]server:test_127.0.0.1:1235 no connection, and connect failed
+[20170320 14:48:01 885970][WARNING][/Users/roc/graverobberserver/src/babeltime.com/rpc/client.go:382]server:test_127.0.0.1:1235 connect failed. validServerNum:0
+[20170320 14:48:01 885973][FATAL][/Users/roc/graverobberserver/src/babeltime.com/rpc/client.go:151]no server for req:test.Echo
+[20170320 14:48:01 885977][WARNING][/Users/roc/graverobberserver/src/babeltime.com/rpc/client.go:240]call method:test.Echo 0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~0123456789:;<=>?@ABC failed after 0 retry
+[20170320 14:48:01 885982][FATAL][rpc_client_test_index:rpc_client_test_0][/Users/roc/gopl/rpc/test/test_client.go:62]get err:dial tcp4 127.0.0.1:1235: getsockopt: connection refused
+[20170320 14:48:01 886046][FATAL][/Users/roc/gopl/rpc/test/test_client.go:184]sumSuc:0 < sumRun:1
